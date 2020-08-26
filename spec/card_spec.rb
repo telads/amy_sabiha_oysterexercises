@@ -1,4 +1,4 @@
-require './lib/oyster.rb'
+require './lib/card.rb'
 
 describe 'A card' do
   it 'can add money(10)' do
@@ -139,12 +139,5 @@ describe 'A card' do
   #   # verify
   #   expect(card.deduct(5)).to eq 0
   # end
-
-  it 'deducts money when a journey is complete' do
-    
-
-
-  end
-
 
 end
